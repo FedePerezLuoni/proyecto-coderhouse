@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decode - Inicio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
@@ -43,13 +44,13 @@
                 <h2 class="subtitulos">Productos destacados</h2>
                 <div class="destacados">
 
-                    <article class="tarjeta">
+                    <article class="tarjeta" data-aos="fade-right">
                         <h3>Remera v999</h3>
                         <img src="./img/remera_vlone.png" alt="Buzo Trapstar" class="tarjeta__img">
                         <a href="" class="boton">Comprar</a>
                     </article>
 
-                    <article class="tarjeta">
+                    <article class="tarjeta" data-aos="fade-left">
                         <h3>Remera THE WOO</h3>
                         <img src="./img/remera_thewoo.png" alt="Buzo Trapstar" class="tarjeta__img">
                         <a href="" class="boton">Comprar</a>
@@ -62,7 +63,7 @@
                 <h2 class="subtitulos">Proximos lanzamientos</h2>
 
                 <div>
-                    <article class="new__drop">
+                    <article class="new__drop" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <video src="./videos/haus_drop.mp4" controls></video>
                     </article>
                 </div>
@@ -99,6 +100,12 @@
             </ul>
         </nav>
     </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
 </body>
 
 </html>
