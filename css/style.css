@@ -31,10 +31,6 @@ video {
     height: auto;
 }
 
-/* ENCABEZADO */
-
-/*------ APLICADO CON BOOTSTRAP ------*/
-
 /* TITULOS */
 
 .titulos {
@@ -109,26 +105,10 @@ video {
     gap: 10px;
 }
 
-.lanzamientos {
-    grid-area: lanzamientos;
-}
-
-.new__drop {
+.new_drop {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.marcas {
-    grid-area: marcas;
-    padding: 20px;
-    border-left: solid 2px #000000;
-}
-
-.carousel__img {
-    height: 50rem;
-    width: 50%;
 }
 
 /* PRODUCTOS */
@@ -139,8 +119,8 @@ video {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-around;
-    gap: 10px;
+    justify-content: space-evenly;
+    gap: 15px;
 }
 
 .tarjeta {
@@ -190,37 +170,10 @@ input {
 
 /* SOBRE NOSOTROS */
 
-.snosotros__texto {
-    text-align: center;
-    font-size: 1rem;
-}
-
 .ubicacion {
-    margin: 40px 0px 40px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-/* TERMINOS Y CONDICIONES */
-
-.tyc__texto {
-    margin: 0px 25px 0px 25px;
-}
-
-/* ----------- RESPONSIVE ----------- */
-
-/* INDEX */
-
-@media (min-width: 1200px) {
-    .grid__index {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr) 50vh;
-        grid-template-rows: repeat(2, auto);
-        grid-template-areas:
-        "productos__destacados productos__destacados marcas"
-        "lanzamientos lanzamientos marcas"
-    }
 }
