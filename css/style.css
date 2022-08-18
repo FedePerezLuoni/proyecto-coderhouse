@@ -99,10 +99,6 @@ video {
 
 /* INDEX */
 
-.productos__destacados {
-    grid-area: productos__destacados;
-}
-
 .destacados {
     padding-top: 60px;
     padding: 15px;
@@ -128,6 +124,11 @@ video {
     grid-area: marcas;
     padding: 20px;
     border-left: solid 2px #000000;
+}
+
+.carousel__img {
+    height: 50rem;
+    width: 50%;
 }
 
 /* PRODUCTOS */
@@ -156,7 +157,7 @@ video {
 }
 
 .tarjeta__img {
-    width: 80%;
+    width: 75%;
 }
 
 /* CONTACTANOS */
