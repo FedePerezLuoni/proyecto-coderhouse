@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decode - Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
@@ -15,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light sticky-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#"> <img src="./img/logo.png" alt="Logo"> </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -52,50 +53,13 @@
     </section>
 
     <main>
-        <div class="grid__index">
-            <section class="productos__destacados">
-                <h2 class="subtitulos">Productos destacados</h2>
-                <div class="destacados">
-
-                    <article class="tarjeta" data-aos="fade-right">
-                        <h3>Remera v999</h3>
-                        <img src="./img/remera_vlone.png" alt="Buzo Trapstar" class="tarjeta__img">
-                        <a href="" class="boton">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta" data-aos="fade-left">
-                        <h3>Remera THE WOO</h3>
-                        <img src="./img/remera_thewoo.png" alt="Buzo Trapstar" class="tarjeta__img">
-                        <a href="" class="boton">Comprar</a>
-                    </article>
-                </div>
-            </section>
-        
-            <section class="lanzamientos">
-
-                <h2 class="subtitulos">Proximos lanzamientos</h2>
-
-                <div>
-                    <article class="new__drop" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <video src="./videos/haus_drop.mp4" controls></video>
-                    </article>
-                </div>
-                
-            </section>
-
-            <section class="marcas">
-
-                <h2 class="subtitulos">Marcas recomendadas</h2>
-                
-                <article>
-                    <img src="./img/coca_cola.png" alt="">
-                    <img src="./img/lays.png" alt="">
-                    <img src="./img/mercado_libre.png" alt="">
-                    <img src="./img/red_bull.png" alt="">
-                </article>
-
-            </section>
-        </div>
+        <section class="container">
+            <article class="row text-center">
+                <div class="col">Productos destacados</div>
+                <div class="col">Nuevo lanzamiento</div>
+                <div class="col">Marcas recomendadas</div>
+            </article>
+        </section>
     </main>
 
     <hr>
@@ -105,15 +69,14 @@
             <ul>
                 <li> Redes Sociales </li>
                 <ul> 
-                    <li> <img src="./img/instagram.svg" alt="instagram"> decode </li>
-                    <li> <img src="./img/whatsapp.svg" alt="whatsapp"> +54 1234-5678 </li>
+                    <li> <i class="bi bi-instagram"> decode </i></li>
+                    <li> <i class="bi bi-whatsapp"> +54 1234-5678 </i></li>
                 </ul>
                 <li> Copyright Decode - 2022 </li>
                 <li> Todos los derechos de autor reservados. </li>
             </ul>
         </nav>
     </footer>
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 
