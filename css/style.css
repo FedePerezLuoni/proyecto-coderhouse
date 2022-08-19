@@ -149,30 +149,8 @@ footer {
 
 /* CONTACTANOS */
 
-form {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 30px;
-}
-
-.formaulario {
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #ffffff;
-}
-
 textarea {
-    width: 95%;
-    padding: 12px 20px;
-    margin: 8px;
     resize: none;
-}
-
-input {
-    width: 95%;
-    padding: 12px 20px;
-    margin: 8px;
 }
 
 /* SOBRE NOSOTROS */
