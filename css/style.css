@@ -31,7 +31,15 @@ video {
   height: auto;
 }
 
-/* TITULOS */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  resize: none;
+}
+
 .titulos {
   text-align: center;
   margin: 40px 0px 40px 0px;
@@ -44,13 +52,6 @@ video {
   font-size: 1.5rem;
 }
 
-/* FOOTER */
-footer {
-  display: flex;
-  justify-content: center;
-}
-
-/* BOTONES */
 .boton {
   padding: 8px;
   border: 2px solid #000000;
@@ -58,6 +59,48 @@ footer {
 }
 .boton:hover {
   background-color: rgba(169, 169, 169, 0.356);
+}
+
+.productos {
+  padding-top: 60px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.tarjeta__img {
+  width: 75%;
+}
+
+.destacados {
+  padding-top: 60px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.new_drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* HERO */
@@ -92,56 +135,6 @@ footer {
     opacity: 1;
   }
 }
-/* INDEX */
-.destacados {
-  padding-top: 60px;
-  padding: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.new_drop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* PRODUCTOS */
-.productos {
-  padding-top: 60px;
-  padding: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-evenly;
-  gap: 15px;
-}
-
-.tarjeta {
-  width: 300px;
-  height: 400px;
-  padding: 10px;
-  border: 2px solid #000000;
-  border-radius: 20px;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.tarjeta__img {
-  width: 75%;
-}
-
-/* CONTACTANOS */
-textarea {
-  resize: none;
-}
-
-/* SOBRE NOSOTROS */
 .ubicacion {
   text-align: center;
   display: flex;

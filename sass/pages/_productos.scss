@@ -1,0 +1,25 @@
+.productos {
+    padding-top: 60px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid $nergo;
+    border-radius: 20px;
+    background-color: $blanco;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &__img {
+        width: 75%;
+    }
+}

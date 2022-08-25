@@ -1,0 +1,49 @@
+.destacados {
+    padding-top: 60px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.new_drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HERO */
+
+.hero {
+    height: 90vh;
+    background: url(.././img/hero.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    &__texto {
+        text-align: center;
+        text-shadow: -2px 2px 2px rgba(0,0,0,0.5);
+        color: $blanco;
+        background-color: #0000005d;
+        border: 4px solid $nergo;
+        border-radius: 20px;
+        padding: 30px;
+        margin: 40px;
+        margin-top: 130px;
+        animation: animacion-titulo 2s;
+    }
+}
+
+@keyframes animacion-titulo {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }   
+}
