@@ -44,9 +44,23 @@ footer {
   font-size: 20px;
   padding: 10px 0 10px 0;
 }
-
 .redes i {
   padding: 0 20px;
+}
+.redes a:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+.ig:hover {
+  color: #E1306C;
+}
+
+.wsp:hover {
+  color: #25d366;
+}
+
+.tw:hover {
+  color: #55acee;
 }
 
 textarea {

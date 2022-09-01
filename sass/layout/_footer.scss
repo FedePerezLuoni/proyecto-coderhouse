@@ -10,8 +10,22 @@ footer {
     @include fcenter();
     font-size: 20px;
     padding: 10px 0 10px 0;
+    & i {
+        padding: 0 20px;
+    }
+    & a:hover {
+        transform: translateY(-3px) scale(1.05);
+    }
 }
 
-.redes i{
-    padding: 0 20px;
+.ig:hover {
+    color: map-get($redes, "instagram" );
+}
+
+.wsp:hover {
+    color: map-get($redes, "whatsapp" );
+}
+
+.tw:hover {
+    color: map-get($redes, "twitter" );
 }
