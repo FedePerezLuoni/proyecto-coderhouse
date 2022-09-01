@@ -64,13 +64,18 @@ textarea {
   font-size: 1.5rem;
 }
 
-.boton {
+.boton, .boton__inactivo, .boton__activo {
   padding: 8px;
   border: 2px solid #000000;
   border-radius: 20px;
 }
-.boton:hover {
-  background-color: rgba(169, 169, 169, 0.356);
+
+.boton__activo:hover {
+  background-color: rgba(169, 169, 169, 0.3568627451);
+}
+
+.boton__inactivo {
+  background-color: #a9a9a9;
 }
 
 .productos {
