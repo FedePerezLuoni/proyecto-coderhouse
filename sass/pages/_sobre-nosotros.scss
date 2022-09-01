@@ -1,8 +1,6 @@
 .ubicacion {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include fcolum();
+    @include fcenter();
     margin-bottom: 2rem;
 }

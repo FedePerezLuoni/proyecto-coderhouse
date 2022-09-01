@@ -12,11 +12,10 @@
     width: 300px;
     height: 400px;
     padding: 10px;
-    border: 2px solid $nergo;
+    border: 2px solid $negro;
     border-radius: 20px;
     background-color: $blanco;
-    display: flex;
-    flex-direction: column;
+    @include fcolum();
     justify-content: space-between;
     align-items: center;
     &__img {

@@ -1,13 +1,13 @@
 footer {
     padding: 0.2rem 0;
     text-align: center;
-    border-top: 2px solid $nergo;
+    border-top: 2px solid $negro;
     margin-top: auto;
 }
 
 .redes {
     display: flex;
-    justify-content: center;
+    @include fcenter();
     font-size: 20px;
     padding: 10px 0 10px 0;
 }
