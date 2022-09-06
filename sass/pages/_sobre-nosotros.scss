@@ -1,6 +1,20 @@
-.ubicacion {
-    text-align: center;
-    @include fcolum();
-    @include fcenter();
-    margin-bottom: 2rem;
+.titulo__envios {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.envios {
+  text-align: center;
+  @include fcolum();
+  @include fcenter();
+  margin-bottom: 2rem;
+}
+
+.envios__texto {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.15rem;
 }

@@ -139,6 +139,8 @@ textarea {
 .hero {
   height: 95vh;
   background-image: url(../img/hero.jpg);
+  background-attachment: scroll;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -167,13 +169,27 @@ textarea {
     opacity: 1;
   }
 }
-.ubicacion {
+.titulo__envios {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.envios {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+}
+
+.envios__texto {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.15rem;
 }
 
 /*# sourceMappingURL=style.css.map */
