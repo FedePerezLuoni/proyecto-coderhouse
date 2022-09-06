@@ -188,4 +188,18 @@ textarea {
   font-size: 1.15rem;
 }
 
+.informacion {
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.informacion ul {
+  list-style-type: disc;
+}
+.informacion strong {
+  margin-bottom: 1.15rem;
+}
+
 /*# sourceMappingURL=style.css.map */
