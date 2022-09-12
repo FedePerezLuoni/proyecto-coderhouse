@@ -137,7 +137,7 @@ textarea {
   gap: 10px;
 }
 
-.new_drop {
+.new__drop {
   display: flex;
   justify-content: center;
   align-items: center;
