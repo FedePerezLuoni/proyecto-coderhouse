@@ -1,12 +1,3 @@
-.destacados {
-  padding-top: 60px;
-  padding: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  @include fcenter();
-  gap: 10px;
-}
-
 .new__drop {
   display: flex;
   @include fcenter();

@@ -127,16 +127,6 @@ textarea {
   width: 75%;
 }
 
-.destacados {
-  padding-top: 60px;
-  padding: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
 .new__drop {
   display: flex;
   justify-content: center;
