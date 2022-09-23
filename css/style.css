@@ -43,6 +43,7 @@ footer {
   text-align: center;
   border-top: 2px solid #000000;
   margin-top: auto;
+  background-color: #ffffff;
 }
 
 .redes {
@@ -191,6 +192,8 @@ textarea {
 }
 
 .informacion {
+  color: #ffffff;
+  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
   list-style-type: disc;
   display: flex;
   flex-direction: column;
@@ -202,6 +205,17 @@ textarea {
 }
 .informacion strong {
   margin-bottom: 1.15rem;
+}
+
+.info__texto {
+  background-color: rgba(0, 0, 0, 0.4039215686);
+  border: solid 1px #000000;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.info__fondo {
+  background-image: url(../../img/informacion.jpg);
 }
 
 form {
