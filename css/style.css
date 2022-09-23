@@ -184,7 +184,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3.25rem;
 }
 
 .envios__texto {
@@ -208,13 +208,13 @@ textarea {
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 92vh;
+  height: 91vh;
 }
 .info__texto {
-  border: solid 1px #000000;
+  border: solid 0px #000000;
   border-radius: 30px;
   padding: 30px;
-  background-color: rgba(0, 0, 0, 0.3098039216);
+  background-color: rgba(0, 0, 0, 0.1843137255);
 }
 
 form {

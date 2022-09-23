@@ -12,12 +12,12 @@
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 92vh;
+    height: 91vh;
   }
   &__texto {
-    border: solid 1px $negro;
+    border: solid 0px $negro;
     border-radius: 30px;
     padding: 30px;
-    background-color: #0000004f;
+    background-color: #0000002f;
   }
 }
