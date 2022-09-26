@@ -128,9 +128,6 @@ input:hover {
 }
 .productos__precio {
   font-size: 1.1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 .tarjeta {
@@ -146,7 +143,19 @@ input:hover {
   align-items: center;
 }
 .tarjeta__img {
-  width: 65%;
+  width: 60%;
+}
+.tarjeta__destacados {
+  width: 300px;
+  height: 380px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .new__drop {
@@ -237,6 +246,10 @@ form {
   border: solid 2px rgba(0, 0, 0, 0.5607843137);
   border-radius: 50px;
   padding: 25px;
+}
+
+.facturacion {
+  padding-bottom: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
