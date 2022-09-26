@@ -18,6 +18,10 @@ a:hover {
   color: $negro;
 }
 
+button {
+  color: $negro;
+}
+
 body {
   @include fcolum();
   min-height: 100vh;
