@@ -6,11 +6,16 @@
   justify-content: center;
   justify-content: space-evenly;
   gap: 15px;
+  &__precio {
+    font-size: 1.1rem;
+    @include fcolum();
+    justify-content: flex-end;
+  }
 }
 
 .tarjeta {
   width: 300px;
-  height: 400px;
+  height: 420px;
   padding: 10px;
   border: 2px solid $negro;
   border-radius: 20px;
@@ -19,6 +24,6 @@
   justify-content: space-between;
   align-items: center;
   &__img {
-    width: 75%;
+    width: 65%;
   }
 }
