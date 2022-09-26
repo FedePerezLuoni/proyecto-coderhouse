@@ -9,8 +9,7 @@
   @include fcolum();
   @include fcenter();
   margin-bottom: 3.25rem;
-}
-
-.envios__texto {
-  font-size: 1.15rem;
+  &__texto {
+    font-size: 1.15rem;
+  }
 }
